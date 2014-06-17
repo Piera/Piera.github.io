@@ -1,0 +1,13 @@
+.checked-item {
+	color: blue;
+	text-decoration: line-through;
+};
+
+
+.hide {
+	display:none;
+};
+
+h1 {
+	font-size: large;
+}
