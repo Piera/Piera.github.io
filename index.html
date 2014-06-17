@@ -4,11 +4,32 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<script type="text/javascript" src="script.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- This following line is needed in case of using the default easing option or when using another
+ 		one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+		<script src="vendors/jquery.easings.min.js"></script>
+		<!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+		<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+		<script type="text/javascript" src="jquery.fullPage.js"></script>
 	</head>
 	
 	<body>
 
-		<h1> Hello world! </h1>
+		<div id="fullpage-nav.left">This</div>
+
+		<div id="fullpage">
+    		<div class="section">About<br/>
+    			<div class="fancy-class">I guess I could write more here!</div>
+    		</div>
+    		<div class="section">Gallery<br/>
+    			Here are lots of pictures
+    		</div>
+    		<div class="section">Resume<br/>
+    			Boring stuff I did.
+    		</div>
+ 		</div>
 
 	</body>
 </html>

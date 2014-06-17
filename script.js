@@ -1,38 +1,39 @@
-$(document).ready(function(){
-  $('.list-item input[type="checkbox"]').click(function() {
-  	if (this.checked) {
-  	   $(this).parent().addClass("checked-item");
-    } else 
-    { 
-  	   $(this).parent().removeClass("checked-item");
-	}
-	});
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        verticalCentered: false,
+        resize : true,
+        slidesColor : ['#ccc', '#fff'],
+        anchors:['About', 'Gallery', 'Resume'],
+        scrollingSpeed: 700,
+        easing: 'easeInQuart',
+        menu: false,
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['firstSlide', 'secondSlide'],
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        autoScrolling: false,
+        scrollOverflow: false,
+        css3: false,
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        fixedElements: '#element1, .element2',
+        normalScrollElements: '#element1, .element2',
+        normalScrollElementTouchThreshold: 5,
+        keyboardScrolling: true,
+        touchSensitivity: 15,
+        continuousVertical: false,
+        animateAnchor: true,
 
-//make the edit button disappear when clicked
-  $('.edit-btn').click(function(){
-  	$(this).hide();
-//make the list item and checkbook disappear when clicked
-  	$(this).siblings(".not-editing").hide();
-//make the input box show up when edit button clicked
-	  $(this).siblings(".editing").show();
-   });
-
-//this is the save button stuff!
-  $('.save-btn').click(function(){
-    console.log("I clicked");
-//make the save button disappear
-    $(this).hide();
-//the input box disappears too
-    $(this).siblings('.editing').hide();
-//show the new input
-//make the edit button show up again too
-    $(this).siblings('.not-editing').show();
-//Show the edited text after Save is clicked
-    var textInput = $(this).siblings('.edit-text').val();
-    console.log(textInput);
-    $(this).siblings('div.not-editing').find('.item-label').text(textInput);
-  });
-
-
-
+        //events
+        onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction){}
+    });
 });
