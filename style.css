@@ -1,4 +1,40 @@
+
+body { padding-top: 70px; }
+
 .fancy-class {
 	font-size: large;
 	color: blue; 
+}
+
+li {
+	font-size: 2em;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+
+}
+
+#About {
+	background: url('Background.JPG') no-repeat fixed center; 
+	background-size: 1300px;
+}
+
+#About h1{
+	color: white;
+}
+
+#Gallery h1{
+	color: blue;
+}
+
+#Resume  {
+	background: url('Background2.JPG') no-repeat fixed center; 
+	background-size: 1300px;
+}
+
+.col-md-4 img {
+	align: center;
+    padding:15px;
+    border:0px;
+    margin:5px;
 }
