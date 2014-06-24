@@ -11,25 +11,52 @@ li {
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
+	color: black;
 
 }
 
 #About {
 	background: url('Background.JPG') no-repeat fixed center; 
-	background-size: 1300px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
-#About h1{
+h5.About {
+	color: #2B3856;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 14px;
+}
+
+h1.About {
 	color: black;
+	font-family: 'Patua One', sans-serif;
+	font-size: 4em;
 }
 
-#Gallery h1{
+h2.About {
+	color: #36648B;
+	font-family: 'Covered By Your Grace', sans-serif;
+}
+
+.smallIconText {
+	color: #36648B;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+h1#Gallery {
 	color: blue;
 }
 
 #Resume  {
 	background: url('Background2.JPG') no-repeat fixed center; 
-	background-size: 1300px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .col-md-4 img {
@@ -40,10 +67,8 @@ li {
 }
 
 div.transparent {
-    background-color: #ffffff;
-    opacity: 0.4;
+    background: rgba(255, 255, 255, 0.5);
     font-weight: bold;
     color: black;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
