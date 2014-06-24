@@ -20,7 +20,7 @@ li {
 }
 
 #About h1{
-	color: white;
+	color: black;
 }
 
 #Gallery h1{
@@ -38,3 +38,12 @@ li {
     border:0px;
     margin:5px;
 }
+
+div.transparent {
+    background-color: #ffffff;
+    opacity: 0.4;
+    font-weight: bold;
+    color: black;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
