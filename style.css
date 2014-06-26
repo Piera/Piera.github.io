@@ -6,6 +6,26 @@ body { padding-top: 70px; }
 	color: blue; 
 }
 
+#header, #footer{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		background: #282634;
+		z-index:9;
+		text-align:center;
+		color: #F1EBEB;
+		padding: 20px 0 0 0;
+	}
+	
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
+
+
 li {
 	font-size: 2em;
 	display: inline;
@@ -16,14 +36,14 @@ li {
 }
 
 #About {
-	background: url('Background.JPG') no-repeat fixed center; 
+	background: url('Mountain3.JPG') no-repeat fixed center; 
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
 }
 
-h5.About {
+h5.About, h5.Resume {
 	color: #2B3856;
 	font-family: 'Cantarell', sans-serif;
 	font-size: 14px;
@@ -52,7 +72,7 @@ h1#Gallery {
 }
 
 #Resume  {
-	background: url('Background2.JPG') no-repeat fixed center; 
+	background: url('Mountain4.JPG') no-repeat fixed center; 
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -72,3 +92,6 @@ div.transparent {
     color: black;
 }
 
+.iconColor {
+	color: #282634;
+}
