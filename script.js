@@ -2,14 +2,14 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         verticalCentered: false,
         resize : true,
-        slidesColor : ['#80BCA3', '#fffff', '#F1EBEB'],
+        slidesColor : ['#80BCA3', '#fffff', '#837ea0'],
         anchors:['About', 'Resume', 'Gallery'],
         scrollingSpeed: 700,
         easing: 'easeInQuart',
         menu: '#menu',
         navigation: false,
         navigationPosition: 'right',
-        navigationTooltips: ['About', 'Resume', 'Gallery'],
+        navigationTooltips: [],
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
         loopBottom: false,
@@ -35,5 +35,8 @@ $(document).ready(function() {
         afterResize: function(){},
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction){}
-    });
+   
+   });
+
+
 });

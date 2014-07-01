@@ -8,27 +8,21 @@ body { padding-top: 70px; }
 		display:block;
 		width: 100%;
 		background: #282634;
+		font-size; 2em;
 		z-index:9;
-		text-align:center;
-		color: #F1EBEB;
-		padding: 20px 0 0 0;
+		text-align:left;
+		padding: 15px 0 0 0px;
 	}
 	
-	#header{
+	#header a {
 		top:0px;
+		font-size: 16px;
+		font-family: 'Cantarell', sans-serif;
 	}
+
 	#footer{
 		bottom:0px;
 	}
-
-li {
-	font-size: 2em;
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-	color: black;
-
-}
 
 #About {
 	background: url('Mountain3.jpg') no-repeat fixed center; 
@@ -39,8 +33,7 @@ li {
 
 }
 
-
-h5.About, h5.Resume {
+h5.About {
 	color: #2B3856;
 	font-family: 'Cantarell', sans-serif;
 	font-size: 14px;
@@ -64,9 +57,6 @@ h2.About {
 	font-weight: bold;
 
 }
-h1#Gallery {
-	color: blue;
-}
 
 #Resume  {
 	background: url('Mountain4.jpg') no-repeat fixed center; 
@@ -74,13 +64,6 @@ h1#Gallery {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-}
-
-.col-md-4 img {
-	align: center;
-    padding:15px;
-    border:0px;
-    margin:5px;
 }
 
 div.transparent {
@@ -91,5 +74,14 @@ div.transparent {
 
 .iconColor {
 	color: #282634;
-	vertical-align: bottom;
+	
 }
+
+#Gallery  {
+	background: #282634;
+  	background-size: cover;
+}
+
+
+
+
