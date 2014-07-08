@@ -62,8 +62,12 @@ h2.About {
 
 
 #Resume  {
-  background: #e9f0f5;
-    background-size: cover;
+	background: url('Mountain4.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
 }
 
 div.transparent {
@@ -81,6 +85,7 @@ div.transparent {
 	background: #FFC48C;
   	background-size: cover;
 }
+
 
 
 

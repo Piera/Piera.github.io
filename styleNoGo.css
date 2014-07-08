@@ -1,91 +1,4 @@
-
-body { padding-top: 70px; }
-
-
-#header, #footer{
-		position:fixed;
-		height: 50px;
-		display:block;
-		width: 100%;
-		background: #282634;
-		font-size; 2em;
-		z-index:9;
-		text-align:left;
-		padding: 15px 0 0 0px;
-	}
-	
-	#header a {
-		top:0px;
-		font-size: 16px;
-		font-family: 'Cantarell', sans-serif;
-	}
-
-	#footer{
-		bottom:0px;
-	}
-
-#About {
-	background: url('Mountain3.jpg') no-repeat center center fixed; 
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-
-}
-
-h4 {
-	color: #2B3856;
-	font-family: "Open Sans";
-}
-
-h5 {
-	color: #2B3856;
-	font-family: "Open Sans";
-}
-
-h5.About {
-	color: #2B3856;
-	font-size: 14px;
-	font-family: "Open Sans";
-}
-
-h1.About {
-	color: black;
-	font-family: 'Patua One', sans-serif;
-	font-size: 4em;
-}
-
-h2.About {
-	color: #36648B;
-	font-family: 'Covered By Your Grace', sans-serif;
-}
-
-
-#Resume  {
-  background: #e9f0f5;
-    background-size: cover;
-}
-
-div.transparent {
-    background: rgba(255, 255, 255, 0.5);
-    font-weight: bold;
-    color: black;
-}
-
-.iconColor {
-	color: #282634;
-	
-}
-
-#Gallery  {
-	background: #FFC48C;
-  	background-size: cover;
-}
-
-
-
-
-* -------------------------------- 
+/* -------------------------------- 
 
 Primary style
 
@@ -118,6 +31,10 @@ img {
   max-width: 100%;
 }
 
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
 
 /* -------------------------------- 
 
@@ -143,15 +60,29 @@ Main components
 
 -------------------------------- */
 header {
-  height: 200px;
   line-height: 200px;
-  text-align: center;
   background: #303e49;
 }
+
 header h1 {
   color: white;
   font-size: 18px;
   font-size: 1.125rem;
+}
+
+div.transparent {
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    color: black;
+}
+
+.About {
+  background: url('Mountain3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 @media only screen and (min-width: 1170px) {
@@ -159,12 +90,10 @@ header h1 {
     height: 300px;
     line-height: 300px;
   }
-
   header h1 {
     font-size: 24px;
     font-size: 1.5rem;
   }
-
 }
 
 #cd-timeline {
@@ -244,10 +173,10 @@ header h1 {
   background: #75ce66;
 }
 .cd-timeline-img.cd-movie {
-  background:  #c03b44;
+  background: #c03b44;
 }
 .cd-timeline-img.cd-location {
-  background: #00B4CC;
+  background: #f0ca45;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -335,7 +264,6 @@ header h1 {
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
 }
-
 .cd-timeline-content:after {
   content: "";
   display: table;
@@ -344,17 +272,13 @@ header h1 {
 .cd-timeline-content h2 {
   color: #303e49;
 }
-
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 14px;
-  font-size: 2rem;
+  font-size: 13px;
+  font-size: 0.8125rem;
 }
-
-
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
-
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
@@ -371,7 +295,7 @@ header h1 {
 }
 .cd-timeline-content .cd-date {
   float: left;
-  padding: .7em 0;
+  padding: .8em 0;
   opacity: .7;
 }
 .cd-timeline-content::before {
@@ -394,8 +318,8 @@ header h1 {
     font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 16px;
-    font-size: 2rem;
+    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -419,7 +343,7 @@ header h1 {
     left: 122%;
     top: 6px;
     font-size: 16px;
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
