@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         verticalCentered: false,
         resize : true,
-        slidesColor : ['#fffff', '#fffff', '#CAD7B2'],
+        slidesColor : ['#fffff', '#fffff', '#A4B4C1'],
         anchors:['About', 'Resume', 'Gallery'],
         scrollingSpeed: 700,
         easing: 'easeInQuart',

@@ -62,8 +62,8 @@ h2.About {
 
 
 #Resume  {
-  background: #e9f0f5;
-    background-size: cover;
+  background: #3C769B;
+  background-size: cover;
 }
 
 div.transparent {
@@ -77,9 +77,35 @@ div.transparent {
 	
 }
 
-#Gallery  {
-	background: #FFC48C;
-  	background-size: cover;
+#Gallery {
+	background: #999CBC;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main {
+  margin: 0 auto -60px;
+}
+
+.main .img-responsive {
+  margin-bottom: 30px;
+}
+
+img {
+
+  -webkit-filter: grayscale(100%) blur(0.5px) drop-shadow(3px 3px 1px grey);
+  -webkit-transition: all 0,2s ease;
+     -moz-transition: all 0,2s ease;
+       -o-transition: all 0,2s ease;
+      -ms-transition: all 0,2s ease;
+          transition: all 0,2s ease;
+
+}
+ 
+img:hover  {
+  -webkit-filter: contrast(130%);
 }
 
 
@@ -105,7 +131,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #e9f0f5;
+  background-color: #999CBC;
 }
 
 a {
