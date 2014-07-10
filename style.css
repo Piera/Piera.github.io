@@ -77,6 +77,11 @@ div.transparent {
 	
 }
 
+.iconColor:hover {
+    color: rgba(59, 89, 152, .7);
+  }
+
+
 #Gallery {
 	background: #999CBC;
   -webkit-background-size: cover;
@@ -95,7 +100,7 @@ div.transparent {
 
 img {
 
-  -webkit-filter: grayscale(100%) blur(0.5px) drop-shadow(3px 3px 1px grey);
+  -webkit-filter: grayscale(100%) drop-shadow(3px 3px 1px grey);
   -webkit-transition: all 0,2s ease;
      -moz-transition: all 0,2s ease;
        -o-transition: all 0,2s ease;
@@ -104,11 +109,9 @@ img {
 
 }
  
-img:hover  {
+.img-responsive:hover  {
   -webkit-filter: contrast(130%);
 }
-
-
 
 
 * -------------------------------- 
