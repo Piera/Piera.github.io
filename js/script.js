@@ -3,7 +3,7 @@ $(document).ready(function() {
         verticalCentered: false,
         resize : true,
         slidesColor : ['#fffff', '#fffff', '#A4B4C1'],
-        anchors:['About', 'Background', 'Gallery'],
+        anchors:['About', 'Portfolio', 'Resume','Gallery'],
         scrollingSpeed: 700,
         // easing: 'easeInQuart',
         menu: '#menu',

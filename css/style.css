@@ -60,17 +60,30 @@ h2.About {
 	font-family: 'Covered By Your Grace', sans-serif;
 }
 
+h3.About {
+  color: #282634;
+  font-family: "Open Sans";
+  margin-top: 0px;
+}
 
 #Portfolio  {
   background: #3C769B;
-  /*background-size: cover;*/
+  background-size: cover;
 }
 
-.inset{
+#Resume {
+  background: #CDC9C9;
+  background-size: cover;
+}
+
+div.extra {
+  padding-bottom: 20px;
+}
+/*.inset{
   margin: 50px;
   background: rgba(255, 255, 255, 0.4);
     color: black;
-}
+}*/
 
 .listing {
   padding: 10px;
@@ -112,7 +125,7 @@ div.transparent {
 
 img {
 
-  -webkit-filter: grayscale(100%) drop-shadow(3px 3px 1px grey);
+  -webkit-filter: grayscale(100%) drop-shadow(3px 3px 1px gray);
   -webkit-transition: all 0,2s ease;
      -moz-transition: all 0,2s ease;
        -o-transition: all 0,2s ease;
@@ -613,4 +626,3 @@ header h1 {
     transform: translateX(0);
   }
 }*/
-*/
