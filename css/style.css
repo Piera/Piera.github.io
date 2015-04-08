@@ -14,15 +14,15 @@ body { padding-top: 70px; }
 		padding: 15px 0 0 0px;
 	}
 	
-	#header a {
-		top:0px;
-		font-size: 16px;
-		font-family: 'Cantarell', sans-serif;
-	}
+#header a {
+	top:0px;
+	font-size: 16px;
+	font-family: 'Cantarell', sans-serif;
+}
 
-	#footer{
-		bottom:0px;
-	}
+#footer{
+	bottom:0px;
+}
 
 #About {
 	background: url('Mountain3.jpg') no-repeat center center fixed; 
@@ -61,15 +61,27 @@ h2.About {
 }
 
 
-#Resume  {
+#Portfolio  {
   background: #3C769B;
-  background-size: cover;
+  /*background-size: cover;*/
+}
+
+.inset{
+  margin: 50px;
+  background: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+.listing {
+  padding: 10px;
+  margin-left: 10px;
 }
 
 div.transparent {
     background: rgba(255, 255, 255, 0.5);
     font-weight: bold;
     color: black;
+    padding-bottom: 40px;
 }
 
 .iconColor {
@@ -114,12 +126,12 @@ img {
 }
 
 
-* -------------------------------- 
+/* -------------------------------- 
 
 Primary style
 
 -------------------------------- */
-html * {
+/*html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -145,7 +157,7 @@ a {
 
 img {
   max-width: 100%;
-}
+}*/
 
 
 /* -------------------------------- 
@@ -153,25 +165,25 @@ img {
 Modules - reusable parts of our design
 
 -------------------------------- */
-.cd-container {
+/*.cd-container {*/
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
+/*  width: 90%;
   max-width: 1170px;
   margin: 0 auto;
 }
-.cd-container::after {
+.cd-container::after {*/
   /* clearfix */
-  content: '';
+ /* content: '';
   display: table;
   clear: both;
-}
+}*/
 
 /* -------------------------------- 
 
 Main components 
 
 -------------------------------- */
-header {
+/*header {
   height: 200px;
   line-height: 200px;
   text-align: center;
@@ -202,9 +214,9 @@ header h1 {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-#cd-timeline::before {
+#cd-timeline::before {*/
   /* this is the vertical line */
-  content: '';
+/*  content: '';
   position: absolute;
   top: 0;
   left: 18px;
@@ -285,7 +297,7 @@ header h1 {
     left: 50%;
     margin-left: -30px;
     /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
+  /*  -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
   .cssanimations .cd-timeline-img.is-hidden {
@@ -479,9 +491,9 @@ header h1 {
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1170px) {*/
   /* inverse bounce effect on even content blocks */
-  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+ /* .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
@@ -600,4 +612,5 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-}
+}*/
+*/

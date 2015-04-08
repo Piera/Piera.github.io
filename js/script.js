@@ -5,7 +5,7 @@ $(document).ready(function() {
         slidesColor : ['#fffff', '#fffff', '#A4B4C1'],
         anchors:['About', 'Background', 'Gallery'],
         scrollingSpeed: 700,
-        easing: 'easeInQuart',
+        // easing: 'easeInQuart',
         menu: '#menu',
         navigation: false,
         navigationPosition: 'right',
@@ -37,7 +37,4 @@ $(document).ready(function() {
         onSlideLeave: function(anchorLink, index, slideIndex, direction){}
    
    });
-
-
-
 });

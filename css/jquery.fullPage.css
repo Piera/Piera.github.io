@@ -11,6 +11,7 @@ html, body {
 	overflow:hidden;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
 #superContainer {
     height: 100%;
     position: relative;
@@ -18,19 +19,23 @@ html, body {
 	/* Touch detection for Windows 8 */
 	-ms-touch-action: none; 
 }
+
 .section {
     position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .slide {
     float: left;
 }
+
 .slide, .slidesContainer {
     height: 100%;
     display: block;
 }
+
 .slides {
     height: 100%;
     overflow: hidden;
@@ -40,20 +45,24 @@ html, body {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
 .section.table, .slide.table {
     display: table;
     width: 100%;
 }
+
 .tableCell {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     height: 100%;
 }
+
 .slidesContainer {
     float: left;
     position: relative;
 }
+
 .controlArrow {
     position: absolute;
     top: 50%;
@@ -63,26 +72,31 @@ html, body {
     border-style: solid;
     margin-top: -38px;
 }
+
 .controlArrow.prev {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
 }
+
 .controlArrow.next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }
+
 .scrollable {
     overflow: scroll;
 }
+
 .easing {
     -webkit-transition: all 0.7s ease-out;
     -moz-transition: all 0.7s ease-out;
     -o-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
 }
+
 #fullPage-nav {
     position: fixed;
     z-index: 100;
@@ -90,29 +104,36 @@ html, body {
     top: 50%;
     opacity: 1;
 }
+
 #fullPage-nav.right {
     right: 17px;
 }
+
 #fullPage-nav.left {
     left: 17px;
 }
+
 .fullPage-slidesNav {
     position: absolute;
     z-index: 4;
     left: 50%;
     opacity: 1;
 }
+
 .fullPage-slidesNav.bottom {
     bottom: 17px;
 }
+
 .fullPage-slidesNav.top {
     top: 17px;
 }
+
 #fullPage-nav ul,
 .fullPage-slidesNav ul {
   margin: 0;
   padding: 0;
 }
+
 #fullPage-nav li,
 .fullPage-slidesNav li {
     display: block;
@@ -121,9 +142,11 @@ html, body {
     margin: 7px;
     position:relative;
 }
+
 .fullPage-slidesNav li {
     display: inline-block;
 }
+
 #fullPage-nav li a,
 .fullPage-slidesNav li a {
     display: block;
@@ -134,10 +157,12 @@ html, body {
     cursor: pointer;
     text-decoration: none;
 }
+
 #fullPage-nav li .active span,
 .fullPage-slidesNav .active span {
     background: #333;
 }
+
 #fullPage-nav span,
 .fullPage-slidesNav span {
     top: 2px;
@@ -152,6 +177,7 @@ html, body {
     position: absolute;
     z-index: 1;
 }
+
 .fullPage-tooltip {
     position: absolute;
     color: #fff;
@@ -159,9 +185,11 @@ html, body {
     font-family: arial, helvetica, sans-serif;
     top: -2px;
 }
+
 .fullPage-tooltip.right {
     right: 20px;
 }
+
 .fullPage-tooltip.left {
     left: 20px;
 }
