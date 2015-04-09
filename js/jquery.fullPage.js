@@ -13,7 +13,7 @@
 			"verticalCentered": false,
 			'resize': true,
 			'slidesColor' : [],
-			'anchors':['About', 'Background', 'Resume', 'Gallery'],
+			'anchors':['About', 'Resume', 'Projects'],
 			'scrollingSpeed': 700,
 			'easing': 'easeInQuart',
 			'menu': false,
