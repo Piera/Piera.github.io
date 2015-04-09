@@ -29,6 +29,21 @@ body { padding-top: 70px; }
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+    height: 100% !important;
+    padding-bottom: 100px;
+}
+
+#Resume {
+  background: #9FA8DA;
+  background-size: cover;
+  height: auto !important;
+  padding-bottom: 100px;
+}
+
+#Projects {
+  background: #8C9EFF;
+  background-size: cover;
+  height: 1440px !important;
 }
 
 .Narrative {
@@ -49,7 +64,8 @@ h5.About {
   color: #424242;
 	font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  line-height: 140%;
+  font-weight: 300;
+  line-height: 145%;
   margin-top: 0px
 }
 
@@ -69,20 +85,7 @@ h3.About {
   margin-top: 0px;
 }
 
-div#Resume {
-  background: #9FA8DA;
-  background-size: cover;
-  height: auto !important;
-}
-
-div#Projects {
-  background: #8C9EFF;
-  background-size: cover;
-  height: auto !important;
-  padding-bottom: 100px;
-}
-
-div.extra {
+.extra {
   padding-bottom: 20px;
   margin-bottom: 100px;
 }
@@ -92,7 +95,7 @@ div.extra {
   margin: 10px;
 }
 
-div.transparent {
+.transparent {
     background: rgba(255, 255, 255, 0.8);
     /*font-weight: bold;*/
     color: black;
@@ -108,13 +111,13 @@ div.transparent {
   }
 
 
-#Gallery {
+/*#Gallery {
 	background: #999CBC;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .main {
   margin: 0 auto -60px;
