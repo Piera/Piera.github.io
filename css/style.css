@@ -1,7 +1,6 @@
 
 body { padding-top: 70px; }
 
-
 #header, #footer{
 		position:fixed;
 		height: 50px;
@@ -77,15 +76,15 @@ h3.About {
   margin-top: 0px;
 }
 
-#Projects  {
-  /*background: #3C769B;*/
-  background-color: #E8EAF6;
+div#Resume {
+  /*background: #CDC9C9;*/
+  background: #9FA8DA;
   background-size: cover;
 }
 
-#Resume {
-  /*background: #CDC9C9;*/
-  background-color: #C5CAE9;
+div#Projects {
+  /*background: #3C769B;*/
+  background: #8C9EFF;
   background-size: cover;
 }
 
