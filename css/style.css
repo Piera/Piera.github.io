@@ -37,22 +37,18 @@ body { padding-top: 70px; }
 
 h4 {
 	color: #2B3856;
-	/*font-family: "Open Sans";*/
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
 }
 
 h5 {
 	color: #2B3856;
-	/*font-family: "Open Sans";*/
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
 }
 
 h5.About {
-	/*color: #2B3856;*/
   color: #424242;
 	font-size: 14px;
-	/*font-family: "Open Sans";*/
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   line-height: 140%;
   margin-top: 0px
 }
@@ -60,49 +56,46 @@ h5.About {
 h1.About {
 	color: black;
 	font-family: 'Patua One', sans-serif;
-  /*font-family: 'Open Sans', sans-serif;*/
 	font-size: 4em;
 }
 
 h2.About {
 	color: #36648B;
-	/*font-family: 'Covered By Your Grace', sans-serif;*/
 }
 
 h3.About {
   color: #282634;
-  /*font-family: "Open Sans";*/
   font-family: "Roboto";
   margin-top: 0px;
 }
 
 div#Resume {
-  /*background: #CDC9C9;*/
   background: #9FA8DA;
   background-size: cover;
+  height: auto !important;
 }
 
 div#Projects {
-  /*background: #3C769B;*/
   background: #8C9EFF;
   background-size: cover;
+  height: auto !important;
+  padding-bottom: 100px;
 }
 
 div.extra {
   padding-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .listing {
   padding: 10px;
-  /*margin-left: 10px;*/
   margin: 10px;
 }
 
 div.transparent {
     background: rgba(255, 255, 255, 0.8);
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
-    /*padding-bottom: 40px;*/
 }
 
 .iconColor {
