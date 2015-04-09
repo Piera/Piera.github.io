@@ -29,8 +29,8 @@ body { padding-top: 70px; }
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-    height: 100% !important;
-    padding-bottom: 100px;
+    height: auto !important;
+    padding-bottom: 400px;
 }
 
 #Resume {
@@ -43,7 +43,8 @@ body { padding-top: 70px; }
 #Projects {
   background: #8C9EFF;
   background-size: cover;
-  height: 1440px !important;
+  height: auto !important;
+  padding-bottom: 100px;
 }
 
 .Narrative {
