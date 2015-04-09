@@ -91,6 +91,11 @@ h3.About {
   margin-bottom: 100px;
 }
 
+.large {
+  /*padding-bottom: 20px;*/
+  margin-bottom: 500px;
+}
+
 .listing {
   padding: 10px;
   margin: 10px;
